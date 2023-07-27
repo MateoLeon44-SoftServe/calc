@@ -14,5 +14,14 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-      - name: deploy
-        # ...deployment-specific steps
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build 🏗️
+        run: |
+          npm run clean
+          npm run build
+      - name: Deploy to GH Pages 🚀
+        
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
