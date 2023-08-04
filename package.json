@@ -50,5 +50,21 @@
     "typescript": "~4.5.5",
     "vite": "^4.4.8",
     "vue": "^3.2.36"
-  }
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoLeon44-SoftServe/calc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateoLeon44-SoftServe/calc/issues"
+  },
+  "homepage": "https://github.com/MateoLeon44-SoftServe/calc#readme",
+  "description": ""
 }

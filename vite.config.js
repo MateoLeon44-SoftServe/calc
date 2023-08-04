@@ -8,5 +8,5 @@ export default {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  base: "https://mateoleon44-softserve.github.io/calc/",
+  base: "https://mateoleon44-softserve.github.io/calc",
 };
